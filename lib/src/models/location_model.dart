@@ -37,12 +37,10 @@ class Location {
         "created": created.toIso8601String(),
       };
 
-  List<String> getResidentsImages() {
+  List<String> getResidentsIds() {
     List<String> residentsImages = [];
     for (int i = 0; i < residents.length; i++) {
-      String imagePath =
-          "https://rickandmortyapi.com/api/character/avatar/${_getResidentId(residents[i])}.jpeg";
-      residentsImages.add(imagePath);
+      residentsImages.add(_getResidentId(residents[i]));
     }
     return residentsImages;
   }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:rick_y_morty/src/pages/character_page.dart';
 import 'package:rick_y_morty/src/pages/characters_page.dart';
 import 'package:rick_y_morty/src/pages/developer_page.dart';
+import 'package:rick_y_morty/src/pages/episode_page.dart';
 import 'package:rick_y_morty/src/pages/episodes_page.dart';
 import 'package:rick_y_morty/src/pages/home.dart';
 import 'package:rick_y_morty/src/pages/location_page.dart';
@@ -13,5 +14,6 @@ Map<String, Widget Function(BuildContext)> getRoutes()=>{
   LocationsPage.routeName : (BuildContext context)=>LocationsPage(),
   LocationPage.routeName : (BuildContext context)=>LocationPage(),
   EpisodesPage.routeName : (BuildContext context)=>EpisodesPage(),
+  EpisodePage.routeName : (BuildContext context)=>EpisodePage(),
   DeveloperPage.routeName : (BuildContext context)=>DeveloperPage(),
 };

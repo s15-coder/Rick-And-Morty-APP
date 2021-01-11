@@ -51,7 +51,7 @@ static final  _styleParagraph =new  TextStyle(fontSize: 15);
                   topLeft: Radius.circular(20), topRight: Radius.circular(20)),
               image: DecorationImage(
                   fit: BoxFit.cover,
-                  image: AssetImage(AssetsPath.homeImage))),
+                  image: AssetImage(AssetsApp.homeImage))),
         ),
       ),
       Container(

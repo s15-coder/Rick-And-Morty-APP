@@ -9,6 +9,17 @@ class CharacterProvider extends Provider {
   CharacterProvider() {
     this.localPath = "/character";
   }
+  Future<Character> getCharacterByd({@required int id}) async {
+    http.Response response =
+        await http.get(this.baseUrl + this.localPath + "/$id");
+    Character character;
+
+    if (response.statusCode == 200) {
+      Map dataCharacter = json.decode(response.body);
+      character = Character.fromJson(dataCharacter);
+    }
+    return character;
+  }
 
   Future<List<Character>> getCharactersByPage({@required int page}) async {
     String url = "${this.baseUrl + this.localPath}?page=$page";

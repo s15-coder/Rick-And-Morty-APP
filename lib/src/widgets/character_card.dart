@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:rick_y_morty/src/models/character_model.dart';
 import 'package:rick_y_morty/src/pages/character_page.dart';
+import 'package:rick_y_morty/src/utils/assets_address.dart';
 import 'package:rick_y_morty/src/utils/size.dart';
 
 class CharacterCard extends StatefulWidget {
@@ -49,7 +50,7 @@ class _CharacterCardState extends State<CharacterCard> {
                   child: FadeInImage(
                     fit: BoxFit.fill,
                     image: NetworkImage(this.widget.character.image),
-                    placeholder: AssetImage('assets/loading.gif'),
+                    placeholder: AssetImage(AssetsApp.loadingGif),
                   ),
                 ),
               ),

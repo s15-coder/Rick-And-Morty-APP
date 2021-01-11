@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rick_y_morty/src/utils/assets_address.dart';
 import 'package:rick_y_morty/src/utils/colors.dart';
 import 'package:rick_y_morty/src/utils/size.dart';
 
@@ -17,7 +18,7 @@ class CircularPhoto extends StatelessWidget {
         child: Container(
           width: GlobalSize.width * 0.4,
           child: Image(
-            image: AssetImage('assets/my_photo.jpg'),
+            image: AssetImage(AssetsApp.myPhoto),
           ),
         ),
       ),

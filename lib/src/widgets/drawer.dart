@@ -31,7 +31,7 @@ class _NavDrawerState extends State<NavDrawer> {
               color: Color.fromRGBO(0, 0, 0, 1),
               image: DecorationImage(
                 fit: BoxFit.fill,
-                image: AssetImage(AssetsPath.drawerImage),
+                image: AssetImage(AssetsApp.drawerImage),
               ),
             ),
           ),

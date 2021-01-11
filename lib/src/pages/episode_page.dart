@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rick_y_morty/src/models/location_model.dart';
+import 'package:rick_y_morty/src/models/episode_model.dart';
 import 'package:rick_y_morty/src/pages/character_page.dart';
 import 'package:rick_y_morty/src/providers/character_provider.dart';
 import 'package:rick_y_morty/src/utils/assets_address.dart';
@@ -8,26 +8,26 @@ import 'package:rick_y_morty/src/widgets/app_bar.dart';
 import 'package:rick_y_morty/src/widgets/loading_indicator.dart';
 import 'package:rick_y_morty/src/widgets/location_card.dart';
 
-class LocationPage extends StatefulWidget {
-  const LocationPage({Key key}) : super(key: key);
-  static final String routeName = "location_page";
+class EpisodePage extends StatefulWidget {
+  const EpisodePage({Key key}) : super(key: key);
+  static final String routeName = "episode_page";
 
   @override
-  _LocationPageState createState() => _LocationPageState();
+  _EpisodePageState createState() => _EpisodePageState();
 }
 
-class _LocationPageState extends State<LocationPage> {
-  CharacterProvider _characterProvider = new CharacterProvider();
+class _EpisodePageState extends State<EpisodePage> {
+    CharacterProvider _characterProvider = new CharacterProvider();
   bool _loading = false;
   @override
   Widget build(BuildContext context) {
-    final Location location = ModalRoute.of(context).settings.arguments;
+    final Episode episode = ModalRoute.of(context).settings.arguments;
     return Scaffold(
-      appBar: appBar(title: location.name),
-      body: Stack(
-        children: [
-          SingleChildScrollView(
-            child: Column(
+      appBar: appBar(title: episode.name),
+      body: SingleChildScrollView(
+        child: Stack(
+          children: [
+            Column(
               children: [
                 Container(
                   padding: EdgeInsets.symmetric(
@@ -35,14 +35,13 @@ class _LocationPageState extends State<LocationPage> {
                       vertical: GlobalSize.heigth * 0.03),
                   child: Column(
                     children: [
-                      item(key: 'Name', value: location.name),
-                      item(key: 'Dimension', value: location.dimension),
-                      item(key: 'Type', value: location.type),
+                      item(key: 'Name', value: episode.name),
+                      item(key: 'Air Date', value: episode.airDate),
                     ],
                   ),
                 ),
                 Text(
-                  'Residents',
+                  'Characters',
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: GlobalSize.width * 0.08),
@@ -53,29 +52,29 @@ class _LocationPageState extends State<LocationPage> {
                       vertical: GlobalSize.heigth * 0.02),
                   child: Wrap(
                     runAlignment: WrapAlignment.end,
-                    children: _createItems(location, context),
+                    children: _createItems(episode, context),
                   ),
                 )
               ],
             ),
-          ),
-          LoadingIndicatorCustom(loading: _loading)
-        ],
+            LoadingIndicatorCustom(loading: _loading)
+          ],
+        ),
       ),
     );
   }
 
-  _createItems(Location location, BuildContext context) {
+  List<Widget> _createItems(Episode episode, BuildContext context) {
     List<Widget> widgets = [];
 
-    for (String residentId in location.getResidentsIds()) {
+    for (String characterId in episode.getCharactersIds()) {
       widgets.add(GestureDetector(
         onTap: () async {
           _loading = true;
           setState(() {});
           Navigator.of(context).pushNamed(CharacterPage.routeName,
-              arguments: await _characterProvider.getCharacterByd(
-                  id: int.parse(residentId)));
+              arguments: await _characterProvider
+                  .getCharacterByd(id: int.parse(characterId)));
           _loading = false;
           setState(() {});
         },
@@ -87,13 +86,11 @@ class _LocationPageState extends State<LocationPage> {
             child: FadeInImage(
                 placeholder: AssetImage(AssetsApp.loadingGif),
                 image: NetworkImage(
-                    'https://rickandmortyapi.com/api/character/avatar/$residentId.jpeg')),
+                    "https://rickandmortyapi.com/api/character/avatar/$characterId.jpeg")),
           ),
         ),
       ));
     }
-    return location.residents.length == 0
-        ? [Text("There aren't residents to show.")]
-        : widgets;
+    return widgets;
   }
 }
