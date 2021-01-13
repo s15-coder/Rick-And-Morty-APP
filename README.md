@@ -1,7 +1,9 @@
 # Rick & Morty APP
  En esta aplicación hecha en Flutter esta consumiendo el [Api de Rick y Morty](https://rickandmortyapi.com/).
 
- Consta de 5 pantallas y hace uso de algunas animaciones basicas.
+ En la aplicación se puede visualizar personajes, lugares y episodios de la serie animada Rick y Morty.
+
+ Consta de 5 pantallas principales y hace uso de algunas animaciones basicas.
 
  Vamos a ver las pantallas de la aplicación para entender mejor su flujo y funcinamiento.
 
