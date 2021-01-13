@@ -9,8 +9,8 @@ import 'package:rick_y_morty/src/widgets/drawer.dart';
 class DeveloperPage extends StatelessWidget {
   const DeveloperPage({Key key}) : super(key: key);
   static final String routeName = "developer_page";
-  static final String facebookUrl = "https://facebook.com/SergioEstebanBM/";
-  static final String instagramUrl = "https://instragram.com/BetterCallEsteban/";
+  static final String facebookUrl = "https://www.facebook.com/SergioEstebanBM/";
+  static final String instagramUrl = "https://www.instagram.com/BetterCallEsteban/";
   static final String githubUrl = "https://github.com/s15-coder";
   static final String emailUrl = "mailto:serestebanoo@gmail.com?subject=Development Subject&body= ";
   @override

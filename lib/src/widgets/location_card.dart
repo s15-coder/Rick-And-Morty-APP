@@ -10,7 +10,8 @@ class LocationCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.pushNamed(context, LocationPage.routeName,arguments: location);
+        Navigator.pushNamed(context, LocationPage.routeName,
+            arguments: location);
       },
       child: Card(
         child: Padding(
@@ -25,23 +26,22 @@ class LocationCard extends StatelessWidget {
       ),
     );
   }
-
 }
- Widget item({@required String key, @required String value}) {
-    return Container(
-      margin: EdgeInsets.only(
-        top: GlobalSize.heigth * 0.02,
-        bottom: GlobalSize.heigth * 0.02,
-      ),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Text(
-            "$key:",
+
+Widget item({@required String key, @required String value}) {
+  return Container(
+    margin: EdgeInsets.only(
+      top: GlobalSize.heigth * 0.02,
+      bottom: GlobalSize.heigth * 0.02,
+    ),
+    child: Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        Text("$key:",
             style: TextStyle(fontWeight: FontWeight.bold),
-          ),
-          Text(value),
-        ],
-      ),
-    );
-  }
+            overflow: TextOverflow.ellipsis),
+        Text(value, overflow: TextOverflow.ellipsis),
+      ],
+    ),
+  );
+}
