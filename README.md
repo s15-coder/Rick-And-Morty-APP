@@ -8,7 +8,7 @@
  Vamos a ver las pantallas de la aplicación para entender mejor su flujo y funcinamiento.
 
  ## Pantalla inicial.
- ![initial-screen](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573585/rickandmorty/hq9ibtzyias9urprflzt.jpg){width=30px}
+ <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573585/rickandmorty/hq9ibtzyias9urprflzt.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Drawer Navigator.
  ![drawer-navigator](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573585/rickandmorty/thgvm8yndm3ntapqjz0r.jpg)
