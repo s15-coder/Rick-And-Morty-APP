@@ -11,7 +11,7 @@
  <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573585/rickandmorty/hq9ibtzyias9urprflzt.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Drawer Navigator.
- ![drawer-navigator](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573585/rickandmorty/thgvm8yndm3ntapqjz0r.jpg)
+ ![drawer-navigator](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573585/rickandmorty/thgvm8yndm3ntapqjz0r.jpg =250x)
 
  ## Pagina de personajes (infinite scroll).
  ![characters-page](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573589/rickandmorty/dbdmnodne1atmunpkrit.jpg)
