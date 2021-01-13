@@ -1,16 +1,37 @@
-# rick_y_morty
+# Rick & Morty APP
+ En esta aplicación hecha en Flutter esta consumiendo el [Api de Rick y Morty](https://rickandmortyapi.com/).
 
-A new Flutter project.
+ Consta de 5 pantallas y hace uso de algunas animaciones basicas.
 
-## Getting Started
+ Vamos a ver las pantallas de la aplicación para entender mejor su flujo y funcinamiento.
 
-This project is a starting point for a Flutter application.
+ ## Pantalla inicial.
+ ![initial-screen](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573585/rickandmorty/hq9ibtzyias9urprflzt.jpg)
 
-A few resources to get you started if this is your first Flutter project:
+ ## Drawer Navigator.
+ ![drawer-navigator](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573585/rickandmorty/thgvm8yndm3ntapqjz0r.jpg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+ ## Pagina de personajes (infinite scroll).
+ ![characters-page](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573589/rickandmorty/dbdmnodne1atmunpkrit.jpg)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ ## Pagina de personaje especifico.
+ ![character-page](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573590/rickandmorty/s3rqxxojrtxzscyupkwe.jpg)
+
+ ## Pagina de los lugares(infinite scroll).
+ ![locations-page](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573587/rickandmorty/dxfwjppyueoowy2oycjo.jpg)
+
+ ## Pagina de un lugar especifico.
+ ![location-page](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573587/rickandmorty/es8crmhy2vg89qx8zori.jpg)
+
+
+ ## Pagina de los diferentes episodios(infinite scroll).
+ ![episodes-page](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573591/rickandmorty/v03uaqywcgxocz7dhijo.jpg)
+
+ ## Pagina de un episodio especifico.
+ ![episode-page](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573587/rickandmorty/usvlnlvxbiyw7kcdkwpd.jpg)
+
+ ## Pagina del desarrollador de la aplicación(enlaces a las diferentes redes).
+ ![developer-page](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573584/rickandmorty/ykxqws3mlu5jpmcrmyn2.jpg)
+
+
+
