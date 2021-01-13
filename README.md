@@ -11,29 +11,29 @@
  <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573585/rickandmorty/hq9ibtzyias9urprflzt.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Drawer Navigator.
- ![drawer-navigator](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573585/rickandmorty/thgvm8yndm3ntapqjz0r.jpg =250x)
+ <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573585/rickandmorty/thgvm8yndm3ntapqjz0r.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Pagina de personajes (infinite scroll).
- ![characters-page](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573589/rickandmorty/dbdmnodne1atmunpkrit.jpg)
+ <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573589/rickandmorty/dbdmnodne1atmunpkrit.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Pagina de personaje especifico.
- ![character-page](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573590/rickandmorty/s3rqxxojrtxzscyupkwe.jpg)
+ <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573590/rickandmorty/s3rqxxojrtxzscyupkwe.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Pagina de los lugares(infinite scroll).
- ![locations-page](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573587/rickandmorty/dxfwjppyueoowy2oycjo.jpg)
+ <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573587/rickandmorty/dxfwjppyueoowy2oycjo.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Pagina de un lugar especifico.
- ![location-page](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573587/rickandmorty/es8crmhy2vg89qx8zori.jpg)
+ <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573587/rickandmorty/es8crmhy2vg89qx8zori.jpg" alt="Pantalla inicial" width="200"/>
 
 
  ## Pagina de los diferentes episodios(infinite scroll).
- ![episodes-page](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573591/rickandmorty/v03uaqywcgxocz7dhijo.jpg)
+ <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573591/rickandmorty/v03uaqywcgxocz7dhijo.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Pagina de un episodio especifico.
- ![episode-page](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573587/rickandmorty/usvlnlvxbiyw7kcdkwpd.jpg)
+ <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573587/rickandmorty/usvlnlvxbiyw7kcdkwpd.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Pagina del desarrollador de la aplicación(enlaces a las diferentes redes).
- ![developer-page](https://res.cloudinary.com/myfuckcloud/image/upload/v1610573584/rickandmorty/ykxqws3mlu5jpmcrmyn2.jpg)
+ <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573584/rickandmorty/ykxqws3mlu5jpmcrmyn2.jpg" alt="Pantalla inicial" width="200"/>
 
 
 
