@@ -8,7 +8,7 @@
  Vamos a ver las pantallas de la aplicación para entender mejor su flujo y funcinamiento.
 
  ## Pantalla inicial.
- <img src="https://res.cloudinary.com/myfuckcloud/image/upload/./docs/hq9ibtzyias9urprflzt.jpg" alt="Pantalla inicial" width="200"/>
+ <img src="./docs/hq9ibtzyias9urprflzt.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Drawer Navigator.
  <img src="./docs/thgvm8yndm3ntapqjz0r.jpg" alt="Pantalla inicial" width="200"/>
