@@ -8,32 +8,32 @@
  Vamos a ver las pantallas de la aplicación para entender mejor su flujo y funcinamiento.
 
  ## Pantalla inicial.
- <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573585/rickandmorty/hq9ibtzyias9urprflzt.jpg" alt="Pantalla inicial" width="200"/>
+ <img src="https://res.cloudinary.com/myfuckcloud/image/upload/./docs/hq9ibtzyias9urprflzt.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Drawer Navigator.
- <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573585/rickandmorty/thgvm8yndm3ntapqjz0r.jpg" alt="Pantalla inicial" width="200"/>
+ <img src="./docs/thgvm8yndm3ntapqjz0r.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Pagina de personajes (infinite scroll).
- <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573589/rickandmorty/dbdmnodne1atmunpkrit.jpg" alt="Pantalla inicial" width="200"/>
+ <img src="./docs/dbdmnodne1atmunpkrit.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Pagina de personaje especifico.
- <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573590/rickandmorty/s3rqxxojrtxzscyupkwe.jpg" alt="Pantalla inicial" width="200"/>
+ <img src="./docs/s3rqxxojrtxzscyupkwe.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Pagina de los lugares(infinite scroll).
- <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573587/rickandmorty/dxfwjppyueoowy2oycjo.jpg" alt="Pantalla inicial" width="200"/>
+ <img src="./docs/dxfwjppyueoowy2oycjo.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Pagina de un lugar especifico.
- <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573587/rickandmorty/es8crmhy2vg89qx8zori.jpg" alt="Pantalla inicial" width="200"/>
+ <img src="./docs/es8crmhy2vg89qx8zori.jpg" alt="Pantalla inicial" width="200"/>
 
 
  ## Pagina de los diferentes episodios(infinite scroll).
- <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573591/rickandmorty/v03uaqywcgxocz7dhijo.jpg" alt="Pantalla inicial" width="200"/>
+ <img src="./docs/v03uaqywcgxocz7dhijo.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Pagina de un episodio especifico.
- <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573587/rickandmorty/usvlnlvxbiyw7kcdkwpd.jpg" alt="Pantalla inicial" width="200"/>
+ <img src="./docs/usvlnlvxbiyw7kcdkwpd.jpg" alt="Pantalla inicial" width="200"/>
 
  ## Pagina del desarrollador de la aplicación(enlaces a las diferentes redes).
- <img src="https://res.cloudinary.com/myfuckcloud/image/upload/v1610573584/rickandmorty/ykxqws3mlu5jpmcrmyn2.jpg" alt="Pantalla inicial" width="200"/>
+ <img src="./docs/ykxqws3mlu5jpmcrmyn2.jpg" alt="Pantalla inicial" width="200"/>
 
 
 
